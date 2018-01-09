@@ -1,0 +1,32 @@
+/*
+body {
+    background-color: slategray;
+
+}
+*/
+
+#one {
+    color: white;
+    background-color: slategray;
+
+}
+
+#two {
+    color: black;
+
+}
+
+#three {
+    color: forestgreen;
+
+}
+
+#four {
+    color: green;
+
+}
+
+.bordered {
+   border: 2px solid black;
+   border-radius: 2px;
+}
