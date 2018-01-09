@@ -1,0 +1,22 @@
+.box { 
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.outer {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+}
+
+.inner {
+    position: relative;
+    top: 25px;
+    left: 25px;
+    height: 25%;
+    width: 25%;
+    background-color: red;
+}

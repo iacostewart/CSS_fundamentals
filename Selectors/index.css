@@ -5,6 +5,7 @@ body {
 }
 */
 
+/*
 #one {
     color: white;
     background-color: slategray;
@@ -29,4 +30,19 @@ body {
 .bordered {
    border: 2px solid black;
    border-radius: 2px;
+}
+*/
+body {
+    background-color: coral;
+}
+
+p {
+    font-family: sans-serif;
+    color: red;
+}
+
+p:hover {
+    border: 2px solid black;
+    border-radius: 20%;
+
 }
