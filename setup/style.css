@@ -1,0 +1,11 @@
+body { 
+    }
+
+h1 {
+    color: fuchsia;
+    font-size: 50px;
+    border: 1px solid black;
+}
+p{
+    color: goldenrod;
+}

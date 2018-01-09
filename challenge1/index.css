@@ -1,0 +1,72 @@
+/*
+Challenge #1
+Use the following HTML code (copy & paste - do not retype).
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>My CSS experiment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Hello to CSS</h1>
+    <p>This is my first CSS example</p>
+    <p>I hope it goes well</p>
+    <p>and it probably will.</p>
+    <p>This is pretty cool.</p>
+
+    <h1>Common house pets:</h1>
+    <ul>
+        <li>Cats</li>
+        <li>Dogs</li>
+        <li>Reptiles</li>
+        <li>Birds</li>
+        <li>Horses</li>
+        <li>Fish</li>
+        <li>Hedgehogs</li>
+        <li>Monkeys</li>
+        <li>Pet Rocks</li>
+    </ul>
+</body>
+</html>
+Gold Level
+Write css rules to give the entire body a gray background, and to make all header tags have red text.
+
+
+
+Blue Level
+Perform the Gold challenge, and then write css rules to italicize all paragraphs. Give the unordered list a black border.
+
+
+
+Red Level
+Perform the Blue challenge, and then write css rules to make every other list item have a bottom margin of 10px. Color the background of each list item light blue.
+*/
+body {
+    background-color: gray;
+
+}
+h1 {
+    color: red;
+}
+
+p {
+    font-style: italic;
+}
+
+ul {
+    
+    border: 1px solid black;
+}
+
+li {
+    background-color: lightblue;
+}
+ul li:nth-child(odd) {
+    margin-bottom: 10px;
+}
+/*
+.other {
+    margin-bottom: 10px;
+}
+*/
